@@ -5,4 +5,26 @@
     <title>Customer Feedback</title>
     <script src="script.js"></script>
 </head>
+<body>
+    <form id="customer-feedback-form" onsubmit="submitCustomerFeedback(event)">
+        <label for="name">Customer Name:</label>
+        <input type="text" id="customerName" name="name"><br><br>
+        <label for="rating">Customer Rating:</label>
+        <select id="customerRating" name="customerRating">
+            <option value="1">1</option>
+        <option value="2">2</option>
+    <option value="3">3</option>
+<option value="4">4</option><option value="4">4</option>
+<option value="5">5</option>
+</select><br><br>
+<label for ="comments">Customer Comments:</label>
+<textarea id="customerComments" name ="customerComments"></textarea><br><br>
+<input type="submit" value ="Submit">
+</form>
+<div id=""customer-feedback-display></div>
+</body>
+</html>
+       
+    
+</body>
 <html>
